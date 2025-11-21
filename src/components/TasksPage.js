@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import BackButton from './BackButton';
 import ProgressBar from './ProgressBar';
 import Task from './Task';
-import { isTaskCorrect, saveCorrectAnswer, getTaskKey, clearAnswersByIds } from '../utils/storage';
+import { isTaskCorrect, saveCorrectAnswer, clearAnswersByIds } from '../utils/storage';
 import '../styles/tasksPage.css';
 
 function TasksPage({ tasks, goBack }) {
