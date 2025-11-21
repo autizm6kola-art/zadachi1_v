@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zadachi1_v/static/css/main.aeb13007.css",
+    "main.js": "/zadachi1_v/static/js/main.dad85908.js",
+    "static/js/453.d37bcb50.chunk.js": "/zadachi1_v/static/js/453.d37bcb50.chunk.js",
+    "index.html": "/zadachi1_v/index.html",
+    "main.aeb13007.css.map": "/zadachi1_v/static/css/main.aeb13007.css.map",
+    "main.dad85908.js.map": "/zadachi1_v/static/js/main.dad85908.js.map",
+    "453.d37bcb50.chunk.js.map": "/zadachi1_v/static/js/453.d37bcb50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aeb13007.css",
+    "static/js/main.dad85908.js"
+  ]
+}
