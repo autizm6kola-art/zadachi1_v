@@ -6,6 +6,7 @@ export const supabase = {
     insert: () => ({ data: null, error: null }),
     update: () => ({ data: null, error: null }),
   }),
+  
   auth: {
     signIn: async () => ({ user: null, error: null }),
     signOut: async () => ({ error: null }),
