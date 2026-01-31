@@ -6,6 +6,7 @@ import ProgressBar from './ProgressBar';
 import { getTaskKey, clearAllAnswers } from '../utils/storage';
 import BackButton from './BackButton';
 import '../styles/menuPage.css';
+import BackupControls from './BackupControls';
 
 function MenuPage({ allTasks, onSelectRange }) {
   const [ranges, setRanges] = useState([]);
@@ -93,6 +94,8 @@ function MenuPage({ allTasks, onSelectRange }) {
       >
         Сбросить все ответы
       </button>
+
+      <BackupControls />
     </div>
   );
 }

@@ -59,7 +59,7 @@ function Task({ task, onCorrect, alreadyCorrect }) {
         type="text"
         value={finalAnswer}
         onChange={e => { setFinalAnswer(e.target.value); setFinalCorrect(null); }}
-        placeholder="Введите финальный ответ"
+        placeholder="ОТВЕТ"
         disabled={finalCorrect === true}
         className={
           finalCorrect === null ? '' : finalCorrect ? 'correct' : 'incorrect'
